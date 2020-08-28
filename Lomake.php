@@ -19,7 +19,7 @@
         <textarea name="feedback" id="" cols="30" rows="10"></textarea>
         <br>
 
-        <input type="submit" value="Send" href="save.php">
+        <input type="submit" value="Send">
     </form>
 
 </body>
