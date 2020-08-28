@@ -16,4 +16,6 @@
     $file = fopen('feedback.txt', 'a') or die('Could not open file');
     $rivi = "<p>$name<br>$feedback<br>$pvm</p>" . PHP_EOL;
     fwrite($file, $rivi);
+
+    header('Location: feedback.php');
 ?>
