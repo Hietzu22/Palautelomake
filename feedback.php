@@ -7,7 +7,9 @@
 </head>
 <body>
     <h1>Feedback</h1>
-    <button href="http://it.esedu.fi/~hietanen.veeti/Hietzu22_homepage/En/index.html">Back to homepage</button>
+    <form action="http://it.esedu.fi/~hietanen.veeti/Hietzu22_homepage/En/index.html">
+        <input type="submit" value="Back to Homepage" />
+    </form>
     <?php
         include('feedback.txt')
     ?>
