@@ -6,8 +6,10 @@
     <title>Palaute</title>
 </head>
 <body>
-    <h1>Palaute</h1>
-    <button href="http://it.esedu.fi/~hietanen.veeti/Hietzu22_Kotisivu/index.html">Takaisin kotisivuille</button>
+    <h1>Feedback</h1>
+    <form action="http://it.esedu.fi/~hietanen.veeti/Hietzu22_Kotisivu/index.html">
+        <input type="submit" value="Takaisin kotisivuille" />
+    </form>
     <?php
         include('feedback.txt')
     ?>
