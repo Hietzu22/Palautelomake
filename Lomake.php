@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palaute</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="navbar">
+        <a href="Lomake.php">Lomake</a>
+        <a href="feedback.php">Palaute</a>
+    </div>
+
     <h1>Palaute</h1>
 
     <form method="get" action="save.php">
