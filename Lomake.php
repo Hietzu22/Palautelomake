@@ -12,6 +12,7 @@
         <a href="Lomake.php">Lomake</a>
         <a href="feedback.php">Palaute</a>
     </div>
+    <br>
 
     <h1>Palaute</h1>
 
