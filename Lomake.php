@@ -18,6 +18,7 @@
     <br>
 
     <form method="get" action="save.php">
+        <br>
         <label for="name">Nimi</label>
         <br>
         <input type="text" name="name">
