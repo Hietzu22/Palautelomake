@@ -18,18 +18,16 @@
     <br>
 
     <form method="get" action="save.php">
-        <br>
+
+    <div class="formgroup">
         <label for="name">Nimi</label>
-        <br>
         <input type="text" name="name">
-        <br>
 
         <label for="feedback">Palaute</label>
-        <br>
         <textarea name="feedback" id="" cols="30" rows="10"></textarea>
-        <br>
 
         <input type="submit" value="Lähetä">
+        </div>
     </form>
 
 </body>
