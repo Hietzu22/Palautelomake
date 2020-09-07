@@ -8,13 +8,12 @@
 </head>
 <body>
 
+    <h1>Palaute</h1>
+
     <div class="navbar">
         <a href="Lomake.php">Lomake</a>
         <a href="feedback.php">Palaute</a>
     </div>
-    <br>
-
-    <h1>Palaute</h1>
 
     <form method="get" action="save.php">
         <label for="name">Nimi</label>
