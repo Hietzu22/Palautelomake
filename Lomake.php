@@ -14,6 +14,7 @@
         <a href="Lomake.php">Lomake</a>
         <a href="feedback.php">Palaute</a>
     </div>
+    <br>
 
     <form method="get" action="save.php">
         <label for="name">Nimi</label>
