@@ -8,15 +8,14 @@
 </head>
 <body>
 
+    <h1>Feedback</h1>
+
     <div class="navbar">
         <a href="Lomake.php">Lomake</a>
         <a href="feedback.php">Palaute</a>
+        <a href="http://it.esedu.fi/~hietanen.veeti/Hietzu22_Kotisivu/index.html">Takaisin kotisivulle</a>
     </div>
 
-    <h1>Feedback</h1>
-    <form action="http://it.esedu.fi/~hietanen.veeti/Hietzu22_Kotisivu/index.html">
-        <input type="submit" value="Takaisin kotisivuille" />
-    </form>
     <?php
         include('feedback.txt')
     ?>

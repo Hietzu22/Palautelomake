@@ -13,8 +13,8 @@
     <div class="navbar">
         <a href="Lomake.php">Lomake</a>
         <a href="feedback.php">Palaute</a>
+        <a href="http://it.esedu.fi/~hietanen.veeti/Hietzu22_Kotisivu/index.html">Takaisin kotisivulle</a>
     </div>
-    <br>
 
     <form method="get" action="save.php">
         <label for="name">Nimi</label>
