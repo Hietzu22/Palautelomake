@@ -25,9 +25,9 @@
 
         <label for="feedback">Palaute</label>
         <textarea name="feedback" id="" cols="30" rows="10"></textarea>
+        </div>
 
         <input type="submit" value="Lähetä">
-        </div>
     </form>
 
 </body>
