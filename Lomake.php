@@ -21,7 +21,7 @@
 
     <div class="formgroup">
         <label for="name">Nimi</label>
-        <input type="text" name="name">
+        <input type="text" name="name" id="nimi">
 
         <label for="feedback">Palaute</label>
         <textarea name="feedback" id="" cols="30" rows="10"></textarea>

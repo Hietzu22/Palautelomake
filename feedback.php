@@ -14,6 +14,7 @@
         <a href="Lomake.php">Lomake</a>
         <a href="feedback.php">Palaute</a>
         <a href="http://it.esedu.fi/~hietanen.veeti/Hietzu22_Kotisivu/index.html">Takaisin kotisivulle</a>
+        <a href="">Admin view</a>
         <br>
     </div>
     
