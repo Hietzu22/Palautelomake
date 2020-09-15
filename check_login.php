@@ -2,14 +2,12 @@
 
 session_start();
 
-if (!isset($_POST['nimi']) == 'Adminview!') {
+if ($_POST['nimi'] == 'Adminview!') {
+    $_SESSION['logged_in'] = 'yes';
+    $_SESSION['nimi'] = $_POST['nimi'];
     header('Location: ok.php');
-    die;
-} else if (!isset($_POST['nimi']) || 'Adminview!') {
+    die();
+} else {
     header('Location: login.php');
+    die();
 }
-
-$_SESSION['logged_in'] = 'yes';
-$_SESSION['nimi'] = $_POST['nimi'];
-
-header('Location: ok.php');
