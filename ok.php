@@ -6,6 +6,7 @@ if ( !isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == 'no' ) {
     header('Location: login.php');
 
 }
+?>
 
 <meta charset="UTF-8">
 
@@ -13,6 +14,7 @@ if ( !isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == 'no' ) {
 
 <h1>Tervetuloa Ylläpitäjäpaneeliin!</h1>
 <p>Olet sisällä!</p>
+<?php
 
 include('feedback.txt')
 
