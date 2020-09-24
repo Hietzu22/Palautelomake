@@ -13,9 +13,8 @@
     $feedback = $_GET['feedback'];
     $pvm = date("d.m.Y");
 
-    $file = fopen('feedback.txt', 'a') or die('Could not open file');
-    $rivi = "<p>$name<br>$feedback<br>$pvm</p>" . PHP_EOL;
-    fwrite($file, $rivi);
+    include_once 'my_functions.php';
+    saveDataToXML($_POST);
 
     header('Location: feedback.php');
 ?>

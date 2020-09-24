@@ -16,6 +16,6 @@ if ( !isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == 'no' ) {
 <p>Olet sisällä!</p>
 <?php
 
-include('feedback.txt')
+include('feedback.xml')
 
 ?>

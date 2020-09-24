@@ -20,7 +20,7 @@
     
 
     <?php
-        include('feedback.txt')
+        include('feedback.xml')
     ?>
 </body>
 </html>
