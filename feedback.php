@@ -20,7 +20,16 @@
     
 
     <?php
-        include('feedback.xml')
+        $xml = simplexml_load_file('feedback.xml');
     ?>
+
+    <?php
+        foreach ($xml->entry as $entry) ?>
+            <div class="EntryDisplay">
+                <h3><?php echo $entry->name; ?></h3>
+                <h3><?php echo $entry->feedback; ?></h3>
+                <h3><?php echo $entry->date; ?></h3>
+            </div>
+        
 </body>
 </html>
