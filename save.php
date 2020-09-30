@@ -14,7 +14,7 @@
     $pvm = date("d.m.Y");
 
     include_once 'my_functions.php';
-    saveDataToXML($_POST);
+    saveDataToXML($_GET);
 
     header('Location: feedback.php');
 ?>

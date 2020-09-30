@@ -16,6 +16,6 @@ if ( !isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == 'no' ) {
 <p>Olet sisällä!</p>
 <?php
 
-include('feedback.xml')
+$xml = simplexml_load_file('feedback.xml');
 
 ?>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <feedbackboard>
-    <entry>
-        <name>Hietzu22</name>
-        <feedback>Cool Site!</feedback>
-        <date>24.9.2020</date>
-    </entry>
+  <entry>
+    <name>Hietzu22</name>
+    <feedback>Cool Site!</feedback>
+    <date>24.9.2020</date>
+  </entry>
+  <entry>
+    <name>Hietzu22</name>
+    <feedback>hei</feedback>
+    <date>29-09-2020</date>
+  </entry>
 </feedbackboard>
