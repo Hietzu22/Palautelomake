@@ -23,13 +23,14 @@
         $xml = simplexml_load_file('feedback.xml');
     ?>
 
-    <?php
-        foreach ($xml->entry as $entry) ?>
-            <div class="EntryDisplay">
-                <h3><?php echo $entry->name; ?></h3>
-                <h3><?php echo $entry->feedback; ?></h3>
-                <h3><?php echo $entry->date; ?></h3>
-            </div>
-        
+    <?php foreach ($xml->entry as $entry): ?>
+        <?php if ($entry->attributes()['visible'] == 'true'): ?>
+        <div class="EntryDisplay">
+            <h3><?php echo $entry->name; ?></h3>
+            <h3><?php echo $entry->feedback; ?></h3>
+            <h3><?php echo $entry->date; ?></h3>
+        </div>
+        <?php endif; ?>
+    <?php endforeach; ?>
 </body>
 </html>
