@@ -21,8 +21,14 @@ function saveDataToXML($data) {
 
 function hideMessage($id){
     $xml = simplexml_load_file('feedback.xml');
-    echo $xml->entry[$id]->name;
-    $xml->entry[$id]->attributes()['visible'] = 'false';
+
+    if ($xml->entry[$id]->attributes()['visible'] = 'true') {
+        $xml->entry[$id]->attributes()['visible'] = 'false';
+    }
+
+    else if ($xml->entry[$id]->attributes()['visible'] = 'false') {
+        $xml->entry[$id]->attributes()['visible'] = 'true';
+    }
 
     $dom = new DOMDocument("1.0");
     $dom->preserveWhiteSpace = false;
@@ -34,5 +40,12 @@ function hideMessage($id){
 
 function deleteMessage($id){
     $xml = simplexml_load_file('feedback.xml');
+    
+    unset($xml->entry[$id]);
 
+    $dom = new DOMDocument("1.0");
+    $dom->preserveWhiteSpace = false;
+    $dom->formatOutput = true;
+    $dom->loadXML($xml->asXML());
+    $dom->save('feedback.xml');
 }
